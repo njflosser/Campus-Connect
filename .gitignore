@@ -1,0 +1,31 @@
+
+# Flutter and Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+**/build/
+.flutter-versions
+
+# IDE files
+.idea/
+.vscode/
+
+# Python backend
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Secrets and local configuration
+secrets.json
+service-account*.json
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
